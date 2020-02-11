@@ -1,0 +1,30 @@
+.main-section__titulo {
+    width: 290px;
+    z-index: 1;
+    margin-left: 5vw;
+    margin-top: 4vw;
+} 
+.main-section__txt {
+    width: 290px;
+    z-index: 2;
+    margin-left: 5vw;
+} 
+.main-section__background {
+    background-image: url(../img/bg-hero.png);
+    background-position: bottom;
+   background-size: cover; 
+    z-index: -1;
+    padding: 30%;
+    margin-top: -18%;
+}
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+    .main-section__background {
+        background-image: url(../img/bg-hero.svg);
+        padding: 40%;
+    }
+}
